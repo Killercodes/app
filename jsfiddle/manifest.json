@@ -1,0 +1,35 @@
+{
+    "name": "JS Fiddler",
+    "short_name": "JSFiddler",
+    "start_url": "app.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "logo/logox50.png",
+        "type": "image/png", "sizes": "50x50"
+      },
+      {
+        "src": "logo/logox100.png",
+        "type": "image/png", "sizes": "100x100"
+      },
+      {
+        "src": "logo/logox150.png",
+        "type": "image/png", "sizes": "150x150"
+      },
+      {
+        "src": "logo/logox192.png",
+        "type": "image/png", "sizes": "192x192"
+      },
+      {
+        "src": "logo/logox250.png",
+        "type": "image/png", "sizes": "250x250"
+      },
+      {
+        "src": "logo/logox500.png",
+        "type": "image/png", "sizes": "500x500"
+      }
+    ]
+  }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json"/>
+    <title>JS fiddle</title>
+  </head>
+  <body>
+    <ul>
+        <li><a class="appname" href="#home">JS fiddler</a></li>
+        <!-- button id="edit" onClick="buttonClick1()">  </button -->
+        <button id="render"> Run ▶ </button>
+        <!--button id="reset"> Reset </button-->
+      </ul>
+      <textarea id="code" class="playable-code" rows="15" style="width: 100%;">
+      <h1>heading1</h1> 
+      <script>
+      code("use code() function defined to render bold/italic text");
+      </script>
+      </textarea>
+    
+      <iframe id="doc"></iframe>
+      <script src="/pwa.js"></script>   
+  </body>
+</html>
