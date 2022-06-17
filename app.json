@@ -1,0 +1,49 @@
+{
+    "name": "App Example",
+    "short_name": "AppExample",
+    "start_url": "app.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#db4938",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "gi/logo/logox16.png",
+        "type": "image/png", "sizes": "16x16"
+      },
+      {
+        "src": "gi/logo/logox20.png",
+        "type": "image/png", "sizes": "20x20"
+      },
+      {
+        "src": "gi/logo/logox24.png",
+        "type": "image/png", "sizes": "24x24"
+      },
+      {
+        "src": "gi/logo/logox32.png",
+        "type": "image/png", "sizes": "32x32"
+      },
+      {
+        "src": "gi/logo/logox48.png",
+        "type": "image/png", "sizes": "48x48"
+      },
+      {
+        "src": "gi/logo/logox64.png",
+        "type": "image/png", "sizes": "64x64"
+      },
+      {
+        "src": "gi/logo/logox128.png",
+        "type": "image/png", "sizes": "128x128"
+      },
+      {
+        "src": "gi/logo/logox256.png",
+        "type": "image/png", "sizes": "256x256"
+      },
+      {
+        "src": "gi/logo/logox512.png",
+        "type": "image/png", "sizes": "512x512"
+      }
+
+
+    ]
+  }
