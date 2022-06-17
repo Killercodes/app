@@ -2,36 +2,8 @@
 <html>
 <head>
   <title>App name</title>
-  <style>
-    button,a {
-      background-color: #333;
-      border: none;
-      color: white;
-      padding: 14px 16px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      cursor: pointer;
-    }
-    
-    button:hover { background-color: #000; }
-
-    button:focus  { background-color: #100; }
-    
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
-    }
-
-    li { float: left;}
-    
-    .appname { background-color: #ff006D; }
-    
-  </style>
+  <link rel="manifest" href="app.json" />
+  <link rel="stylesheet" href="style.css" />
   <script>
     function buttonClick1(){
         alert("button clicked");
